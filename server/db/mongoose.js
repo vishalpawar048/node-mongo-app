@@ -1,4 +1,5 @@
 const mongoose=require('mongoose');
+
 // var co = require('co');
 // var Promise = require('mpromise');
 
@@ -9,5 +10,7 @@ const mongoose=require('mongoose');
 mongoose.Promise=global.Promise;
 // mongoose.connect('');
 module.exports={
-    mongoose
+    mongoose,
+  
+
 }
